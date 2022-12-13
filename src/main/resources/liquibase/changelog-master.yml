@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: liquibase/scripts/shelter.sql
+  - include:
+      file: liquibase/scripts/changeTables.sql
+  - include:
+      file: liquibase/scripts/addColumnsToPet.sql
+  - include:
+      file: liquibase/scripts/createUsers.sql
